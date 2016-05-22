@@ -1,0 +1,38 @@
+{
+  "name": "dashtest",
+  "version": "0.1.0",
+  "description": "Test for Dashmote",
+  "homepage": "https://github.com/samechikson/dashtest",
+  "bugs": "https://github.com/samechikson/dashtest/issues",
+  "author": {
+    "name": "Sam Echikson",
+    "email": "samuel.echikson@gmail.com",
+    "url": "https://github.com/samechikson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samechikson/dashtest.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "$(npm bin)/eslint app",
+    "start": "$(npm bin)/gulp serve",
+    "build": "$(npm bin)/gulp build"
+  },
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "bootstrap": "^3.3",
+    "browser-sync": "^2.12.8",
+    "font-awesome": "^4.3",
+    "gulp-less": "^3.1.0",
+    "lodash": "^3.5",
+    "masonry-layout": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0",
+    "eslint-config-airbnb": "^0.1.0",
+    "gulp": "git://github.com/gulpjs/gulp.git#4.0"
+  }
+}
