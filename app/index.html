@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en", ng-app="DashTest">
+<head>
+
+  <meta charset="utf-8">
+  <title>dashtest!</title>
+  <meta name="description" content="dashTest!">
+
+  <base href="/">
+
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="./app.js"></script>
+
+  <link href="app.css" rel="stylesheet">
+</head>
+
+<body ng-controller="dashMainController">
+  <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Dashtest</a>
+        </div>
+      </div>
+    </nav>
+  <div class="row">
+    <dash-pic pics="pics"></dash-pic>
+  </div>
+</body>
+
+</html>
