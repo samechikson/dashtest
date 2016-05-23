@@ -1,6 +1,6 @@
 <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 300 }'>
-  <div class="grid-item" ng-repeat="pic in pics" ng-click="deletePic($event)">
-    <a href="#" class="thumbnail">
+  <div class="grid-item" ng-repeat="pic in pics">
+    <a href="" class="thumbnail" ng-click="deletePic($event)">
       <img width="300" src="{{pic.url}}" title="{{pic.name}}"/>
     </a>
   </div>

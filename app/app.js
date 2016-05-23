@@ -12,7 +12,7 @@ angular.module('DashTest', [])
     },
     controller: function($scope) {
       $scope.deletePic = ($event) => {
-        angular.element($event.currentTarget).remove();
+        angular.element($event.currentTarget.parentElement).remove();
       };
     }
   };
